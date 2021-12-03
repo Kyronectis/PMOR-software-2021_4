@@ -2,4 +2,4 @@
 Software voor het project PMOR van groep 4
 
 # Gebruikte libraries:
-Ultrasone sensor: https://os.mbed.com/users/ejteb/code/HC_SR04_Ultrasonic_Library/
+LCD: https://os.mbed.com/users/simon/code/TextLCD
