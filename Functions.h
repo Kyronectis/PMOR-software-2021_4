@@ -10,12 +10,9 @@ void LCD164(
     bool power, 
     bool hover, 
     bool control, 
-    PinName RS, 
-    PinName E, 
-    PinName DATA1, 
-    PinName DATA2, 
-    PinName DATA3, 
-    PinName DATA4,
+    TextLCD lcd,
     string message = "" 
 );
 bool SW_NC(PinName port, bool type = 0);
+
+int init(BTS7960 hbridge, TextLCD lcd, PinName T, PinName E, PinName SH, PinName GO);
